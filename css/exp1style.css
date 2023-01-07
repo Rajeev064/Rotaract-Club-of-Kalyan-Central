@@ -402,7 +402,7 @@ button:focus+.design-container {
   color: #E134D5;
 }
 #tweet:hover{
-  color: #5BB2FE;
+  color: greenyellow;
 }
 footer{
   padding-top: 10px;
