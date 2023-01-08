@@ -758,7 +758,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	}
 
 }
-
+/* 
 @media(max-width:500px){
   .yeartheme img{
     max-width: 100% !important;
@@ -771,5 +771,5 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 70% !important;
     height: auto;
   }
-}
+} */
 
