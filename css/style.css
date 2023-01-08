@@ -761,7 +761,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media(max-width:500px){
   .yeartheme img{
-    width: 50% !important;
+    max-width: 100% !important;
     height: auto;
   }
 }
