@@ -758,3 +758,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 	}
 
 }
+
+@media(max-width:500px){
+  .yeartheme img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(min-width:501px) {
+  .yeartheme img{
+    width: 80%;
+    height: auto;
+  }
+}
+
