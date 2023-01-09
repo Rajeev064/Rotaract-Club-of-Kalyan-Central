@@ -11,6 +11,33 @@ body {
   
 }
 
+hr{
+  
+  border: 0;
+  height: 1px;
+  width: 50%;
+  position: relative;
+  margin: 30px auto;
+}
+.center-ball{
+  background: aqua;
+}
+.center-ball::before{
+  content: "";
+      width: 6px;
+      height: 6px;
+      background: aqua;
+      display: inline-block;
+      border: 2px solid aqua;
+      position: absolute;
+      top: -3px;
+      left: 50%;
+      margin: 0 0 0 -3px;
+      transform:rotate(45deg);
+      -ms-transform:rotate(45deg); /* IE 9 */
+      -webkit-transform:rotate(45deg);
+}
+
 a {
   color: blue;/*18d26e;*/
   transition: 0.5s;
